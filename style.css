@@ -1,0 +1,73 @@
+/* style.css */
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  direction: rtl;
+}
+
+header {
+  background: #4aa3df;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  max-height: 70px;
+  margin-bottom: 10px;
+}
+
+.hero {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.subjects {
+  padding: 20px;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.card {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #4aa3df;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #4aa3df;
+  color: white;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 40px;
+}
